@@ -1,12 +1,15 @@
 {
   "name": "create-react-app-rewire-styled-components",
-  "version": "3.0.3",
+  "version": "3.0.5",
   "description": "A plugin to add the styled-components Babel plugin to create-react-app with react-app-rewired",
   "repository": {
     "type": "git",
     "url": "https://github.com/griiettner/create-react-app-rewire-styled-components.git"
   },
   "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
   "license": "MIT",
   "scripts": {
     "precommit": "lint-staged",

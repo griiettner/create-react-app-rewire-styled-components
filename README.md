@@ -1,4 +1,6 @@
-# `react-app-rewire-styled-components`
+# `create-react-app-rewire-styled-components`
+
+This is an updated version of original package `react-app-rewire-styled-components` created by Maximilian Stoiber, but no longer mantained.
 
 Add the [`babel-plugin-styled-components`](https://github.com/styled-components/babel-plugin-styled-components) to your `create-react-app` app via [`react-app-rewired`](https://github.com/timarney/react-app-rewired).
 
@@ -7,9 +9,9 @@ This gives you nicer generated class names that include the components' name, mi
 ## Installation
 
 ```sh
-npm install --save react-app-rewire-styled-components
+npm install --save create-react-app-rewire-styled-components
 # alternatively if you have yarn installed
-yarn add react-app-rewire-styled-components
+yarn add create-react-app-rewire-styled-components
 ```
 
 ## Usage
@@ -17,7 +19,7 @@ yarn add react-app-rewire-styled-components
 In the `config-overrides.js` you created for `react-app-rewired` add this code:
 
 ```JS
-const rewireStyledComponents = require('react-app-rewire-styled-components');
+const rewireStyledComponents = require('create-react-app-rewire-styled-components');
 
 /* config-overrides.js */
 module.exports = function override(config, env) {
@@ -41,3 +43,4 @@ See [the available options](https://www.styled-components.com/docs/tooling#babel
 ## License
 
 Licensed under the MIT License, Copyright ©️ 2017 Maximilian Stoiber. See [LICENSE.md](LICENSE.md) for more information.
+Relicensed under the MIT License, Copyright ©️ 2021 Paulo Griiettner.
